@@ -1,0 +1,27 @@
+/* SearchAndAddBtn.module.css */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.input {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.btnBdPrimary {
+  font-weight: 600;
+  color: #fff; /* var(--bs-white) */
+  background-color: #7d3f98; /* var(--bd-violet) */
+  border: 1px solid #7d3f98; /* var(--bd-violet) */
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnBdPrimary:hover {
+  background-color: #693382; /* Shaded version of violet */
+  border-color: #693382; /* Shaded version of violet */
+}
